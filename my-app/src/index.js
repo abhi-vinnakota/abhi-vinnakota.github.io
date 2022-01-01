@@ -2,11 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Intro from './components/Intro';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <Intro/>
+    <About/>
+    <Experience/>
+    <Projects/>
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
 );
