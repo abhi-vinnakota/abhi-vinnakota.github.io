@@ -1,0 +1,15 @@
+#about {
+    padding-left: 15%;
+    padding-right: 30%;
+    padding-top: 15%;
+}
+.about-title {
+    font-size: 46px;
+    color: white;
+}
+
+.about-bio {
+    padding-top: 10px;
+    font-size: 20px;
+    color: var(--secondary);
+}

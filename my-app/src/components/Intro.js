@@ -2,6 +2,7 @@ import React from "react";
 import '../css/Intro.css';
 import Typist from 'react-typist';
 import "react-typist/dist/Typist.css";
+import ArticleIcon from '@mui/icons-material/Article';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -17,15 +18,17 @@ class Intro extends React.Component {
                     <Typist>
                         <span className="title">
                             {"Hi, I'm "}
-                            <span className="name">{"Abhi"}</span>
+                            <span className="name">{"Abhi Vinnakota"}</span>
                         </span>
                         
                     </Typist>
-                <FadeInSection>
+                <FadeIn>
+                
                     <div className = "bio">
-                        I'm a Software Developer who is interested in full-stack development and machine learning.
+                        Aspiring Software Developer
                     </div>
-                </FadeInSection>
+                
+                
                 <div className="social-icons">
                     <a href = "mailto:asv7@illinois.edu">
                         <EmailRoundedIcon style ={{fontSize: 50}}></EmailRoundedIcon>
@@ -43,7 +46,12 @@ class Intro extends React.Component {
                         <TwitterIcon style = {{fontSize: 50}}></TwitterIcon>
                     </a>
 
+                    <a href = "AbhiVinnakotaResume.pdf">
+                        <ArticleIcon style = {{fontSize: 50}}></ArticleIcon>
+                    </a>
+
                 </div>
+                </FadeIn>
 
             </div>
         );
