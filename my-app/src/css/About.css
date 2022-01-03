@@ -5,11 +5,11 @@
 }
 .about-title {
     font-size: 46px;
-    color: white;
+    color: var(--secondary);
 }
 
 .about-bio {
     padding-top: 10px;
     font-size: 20px;
-    color: var(--secondary);
+    color: var(--tercery);
 }

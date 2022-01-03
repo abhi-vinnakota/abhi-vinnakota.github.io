@@ -9,7 +9,7 @@
 
 .title {
     font-size: 80px;
-    color: white;
+    color: var(--secondary);
 }
 
 .name {
@@ -18,7 +18,7 @@
 }
 
 .bio {
-    color: var(--secondary);
+    color: var(--tercery);
     font-size: 20px;
 }
 
@@ -30,12 +30,12 @@
     padding-bottom: 8px;
 }
 
-a {
+.social-icons a {
     text-decoration: none !important;
     color: var(--primary) !important;
 }
   
-a:hover {
+.social-icons a:hover {
     color: var(--secondary) !important;
 }
 

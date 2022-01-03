@@ -8,6 +8,8 @@ class Projects extends React.Component {
                 <div className='projects-title'>
                     Projects
                 </div>
+
+                
             </div>
         );
     }

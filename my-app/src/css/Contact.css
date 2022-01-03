@@ -8,3 +8,20 @@
     font-size: 46px;
     color: white;
 }
+
+.social-icons {
+    padding-top: 15px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--primary) !important;
+}
+  
+a:hover {
+    color: var(--secondary) !important;
+}

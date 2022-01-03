@@ -18,7 +18,7 @@ class Intro extends React.Component {
                     <Typist>
                         <span className="title">
                             {"Hi, I'm "}
-                            <span className="name">{"Abhi Vinnakota"}</span>
+                            <span className="name">{"Abhi Vinnakota."}</span>
                         </span>
                         
                     </Typist>

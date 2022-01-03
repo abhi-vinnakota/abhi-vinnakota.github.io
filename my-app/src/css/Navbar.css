@@ -1,0 +1,15 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
