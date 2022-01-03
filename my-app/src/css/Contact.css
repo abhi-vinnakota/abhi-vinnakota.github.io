@@ -6,7 +6,7 @@
 
 .contact-title {
     font-size: 46px;
-    color: white;
+    color: var(--secondary);
 }
 
 .social-icons {

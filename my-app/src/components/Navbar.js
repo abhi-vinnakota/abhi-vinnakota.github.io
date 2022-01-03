@@ -1,4 +1,3 @@
-import { Button } from "@mui/material";
 import React from "react";
 import "../css/Navbar.css"
 
@@ -13,28 +12,26 @@ var prevScrollpos = window.pageYOffset;
     }
     prevScrollpos = currentScrollPos;
     }
-    
+
 class Navbar extends React.Component {
     
     render() {
         return (
             <div id = "navbar">
                 <div className = "topnav">
-                    <a href = "#about">
-                        About
-                    </a>
 
-                    <a href = "#experience">
-                        Experience
+                    <a href = "./AbhiVinnakotaResume.pdf">
+                        Resume
                     </a>
 
                     <a href = "#contact">
                         Contact
                     </a>
 
-                    <a href = "AbhiVinnakotaResume.pdf">
-                        Resume
+                    <a href = "#about">
+                        About
                     </a>
+                    
                 </div>
             </div>
         );

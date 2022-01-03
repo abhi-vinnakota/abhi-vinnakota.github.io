@@ -46,6 +46,7 @@
 .Typist .Cursor--blinking {
     color: var(--primary);
     padding-left: 4px;
+    
 }
   
   

@@ -13,7 +13,14 @@ class About extends React.Component {
                 </FadeIn>
 
                 <div className="about-bio">
-                    I'm currently studying Computer Science at the University of Illinois Urbana-Champaign and plan on graduating in 2024. My work specializes in Web Development and Data Science but I'm also interested in Quantitative Finance.
+                    Hi! I'm a freshman studying Computer Science at the University of Illinois Urbana-Champaign (<a href = "https://cs.illinois.edu/">UIUC</a>). My main interests are quantitative finance and machine learning. To this end, I'm currently a Software Developer for the Quantitative Finance (<a href = "https://uiucquant.web.illinois.edu/">Quant</a>) Club at UIUC. I also enjoy web development and mainly use React.   
+                </div>
+
+                <br>
+                </br>
+
+                <div className="about-bio">
+                Please refer to my <a href = "AbhiVinnakotaResume.pdf">resume</a> for my credentials and check out my <a href = "https://www.github.com/abhi-vinnakota">GitHub</a> to see some of my projects! I would love to talk as well, so feel free to reach out to me!
                 </div>
             </div>
             

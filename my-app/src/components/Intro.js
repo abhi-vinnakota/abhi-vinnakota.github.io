@@ -23,9 +23,9 @@ class Intro extends React.Component {
                         
                     </Typist>
                 <FadeIn>
-                
+
                     <div className = "bio">
-                        Aspiring Software Developer
+                        Welcome to my website! I'm currently looking for Software Engineering internships for Summer 2022. Please refer to my resume for more information!
                     </div>
                 
                 

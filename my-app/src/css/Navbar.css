@@ -3,13 +3,16 @@
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    
 }
 
 .topnav a {
     float: right;
     display: block;
     text-align: center;
-    padding: 15px;
+    padding-top: 1%;
+    padding-right: 2%;
     text-decoration: none;
+    
 }
 

@@ -1,4 +1,4 @@
-#experiences {
+#experience {
     padding-left: 15%;
     padding-right: 30%;
     padding-top: 15%;
@@ -6,5 +6,19 @@
 
 .experiences-title {
     font-size: 46px;
-    color: white;
+    color: var(--secondary);
+}
+
+.experiences-subtitle {
+    font-size: 20px;
+    color: var(--tercery);
+    padding-top: 10px;
+}
+
+.experience-list li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    font-size: 16px;
+    color: var(--tercery);
 }
