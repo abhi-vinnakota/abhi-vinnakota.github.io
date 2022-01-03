@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://abhi-vinnakota.github.io/my-app/public/index.html",
+  "homepage": "https://abhi-vinnakota.github.io/my-app/src/index.js",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
