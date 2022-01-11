@@ -1,6 +1,7 @@
 import React from "react";
 import '../css/About.css';
 import FadeIn from "react-fade-in/lib/FadeIn";
+import pdf from "../assets/AbhiVinnakotaResume.pdf";
 
 class About extends React.Component {
     render() {
@@ -20,7 +21,7 @@ class About extends React.Component {
                 </br>
 
                 <div className="about-bio">
-                Please refer to my <a href = "AbhiVinnakotaResume.pdf">resume</a> for my credentials and check out my <a href = "https://www.github.com/abhi-vinnakota">GitHub</a> to see some of my projects! I would love to talk as well, so feel free to reach out to me!
+                Please refer to my <a href = {pdf}>resume</a> for my credentials and check out my <a href = "https://www.github.com/abhi-vinnakota">GitHub</a> to see some of my projects! I would love to talk as well, so feel free to reach out to me!
                 </div>
             </div>
             
