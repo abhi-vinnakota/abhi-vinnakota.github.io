@@ -1,5 +1,6 @@
 import React from "react";
-import "../css/Navbar.css"
+import "../css/Navbar.css";
+import pdf from "../assets/AbhiVinnakotaResume.pdf";
 
 
 var prevScrollpos = window.pageYOffset;
@@ -20,7 +21,7 @@ class Navbar extends React.Component {
             <div id = "navbar">
                 <div className = "topnav">
 
-                    <a href = "./AbhiVinnakotaResume.pdf">
+                    <a href = {pdf}>
                         Resume
                     </a>
 

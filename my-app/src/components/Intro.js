@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FadeIn from 'react-fade-in';
-import FadeInSection from "./FadeInSection";
+import pdf from '../assets/AbhiVinnakotaResume.pdf';
 
 class Intro extends React.Component {
     render() {
@@ -46,7 +46,7 @@ class Intro extends React.Component {
                         <TwitterIcon style = {{fontSize: 50}}></TwitterIcon>
                     </a>
 
-                    <a href = "AbhiVinnakotaResume.pdf">
+                    <a href = {pdf}>
                         <ArticleIcon style = {{fontSize: 50}}></ArticleIcon>
                     </a>
 
