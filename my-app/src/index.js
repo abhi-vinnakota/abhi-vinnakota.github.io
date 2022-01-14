@@ -15,6 +15,7 @@ ReactDOM.render(
     <Navbar/>
     <Intro/>
     <About/>
+    <Experience/>
     <Contact/>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,9 +1,10 @@
 import React from 'react';
 import '../css/Experience.css'
 import '@fortawesome/react-fontawesome'
-
+import VerticalTabs from './VerticalTabs'
 class Experience extends React.Component {
     render() {
+        
         return (
             <div id = "experience">
                 <div className='experiences-title'>
@@ -19,19 +20,7 @@ class Experience extends React.Component {
                 </div>
 
                 <div className='experience-list'>
-                    <ul>
-
-                        <li>
-                            <i class="fas fa-caret-right"></i>
-                            Software Engineer for UIUC Quant Club
-                        </li>
-                        <li>
-                            Web Developer for Research Lab at UIUC
-                        </li>
-                        <li>
-                            SWE Intern at Caterpillar
-                        </li>
-                    </ul>
+                    <VerticalTabs/>
                 </div>
 
                 <div className ='experiences-subtitle'>

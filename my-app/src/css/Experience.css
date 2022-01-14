@@ -13,12 +13,36 @@
     font-size: 20px;
     color: var(--tercery);
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-.experience-list li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style: none;
-    font-size: 16px;
+.experience-list{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .experience-list {
+        display: none;
+    }
+  }
+
+.job-title {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 300%;
+}
+
+.title-colored {
+    color: var(--primary);
+}
+
+.job-date {
     color: var(--tercery);
+    padding-bottom: 5px;
+}
+
+.job-description {
+    color: var(--tercery);
+    padding-top: 5px;
 }
