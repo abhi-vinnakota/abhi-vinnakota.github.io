@@ -55,6 +55,11 @@ export default function VerticalTabs() {
         variant="scrollable"
         value={value}
         onChange={handleChange}
+        TabIndicatorProps={{
+          style: {
+            backgroundColor: "#66FCF1"
+          }
+        }}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
       >
