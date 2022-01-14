@@ -29,6 +29,10 @@ class Navbar extends React.Component {
                         Contact
                     </a>
 
+                    <a href = "#experience">
+                        Experience
+                    </a>
+
                     <a href = "#about">
                         About
                     </a>
