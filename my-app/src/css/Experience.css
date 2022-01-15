@@ -47,3 +47,9 @@
     color: var(--tercery);
     padding-top: 5px;
 }
+
+@media screen and (max-width: 500px) {
+    .experiences-title {
+        font-size: 30px;
+    }
+}

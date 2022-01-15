@@ -21,7 +21,7 @@ class Projects extends React.Component {
             <p class="card-text">
               HTML, CSS, JS, d3
             </p>
-            <form action = "">
+            <form action = "https://github.com/abhi-vinnakota/d3-notebook-visualization-website">
             <button class="card-btn">GitHub <span>&rarr;</span></button>
             </form>
           </div>
@@ -37,7 +37,7 @@ class Projects extends React.Component {
             <p class="card-text">
               ReactJS
             </p>
-            <form action = "">
+            <form action = "https://github.com/abhi-vinnakota/abhi-vinnakota.github.io">
             <button class="card-btn">GitHub <span>&rarr;</span></button>
             </form>
           </div>

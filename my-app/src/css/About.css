@@ -14,3 +14,9 @@
     font-size: 20px;
     color: var(--tercery);
 }
+
+@media screen and (max-width: 500px) {
+    .about-title {
+        font-size: 30px;
+    }
+}
