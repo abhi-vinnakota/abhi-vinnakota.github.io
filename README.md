@@ -1,5 +1,6 @@
 # Personal Website
 
+<img src = "./my-app/src/assets/personalwebsite.png"></img>
 ## Overview
 The purpose of my website is to act as a resume and to showcase my projects. This is the first project I've built with ReactJS, and I really enjoyed learning React. It's a super cool language, and I definitely will use it for my Web dev projects from here on out. I got a taste of what React can do, but I think I could do even more with it in the future. Overall, I wanted my website to be pretty minimalistic. Color choice was pretty important to me and I spent some time looking at other websites for inspiration. Shout out to Brittany Chiang, because I used her color palette as inspiration for the one I used. I wanted to use React components and animations wherever possible, and found some cool libraries to integrate into my project. 
 
