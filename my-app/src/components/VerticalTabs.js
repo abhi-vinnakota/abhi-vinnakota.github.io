@@ -55,9 +55,15 @@ export default function VerticalTabs() {
         variant="scrollable"
         value={value}
         onChange={handleChange}
+        textColor="white"
         TabIndicatorProps={{
           style: {
             backgroundColor: "#66FCF1"
+          }
+        }}
+        MuiTab-root={{
+          style: {
+            color: "white"
           }
         }}
         aria-label="Vertical tabs example"
@@ -74,13 +80,13 @@ export default function VerticalTabs() {
           October 2021 - Present
         </div>
         <div className = "job-description">
-        - Utilized Observable Notebook to create and modify d3.js data visualization notebooks
+        - Utilized Observable Notebook to create story-telling and compelling data notebooks
         </div>
         <div className = "job-description">
         - Integrated d3.js notebooks into statically loaded web pages which showcase data in a clean format
         </div>
         <div className = "job-description">
-        - Constructed a webpage for a professor which showcases her d3.js notebooks and visualizations using HTML, CSS, and JS
+        - Constructed a webpage from scratch with HTML, CSS, and JS to showcase a professor's data visualizations
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>

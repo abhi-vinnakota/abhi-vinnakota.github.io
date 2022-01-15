@@ -6,5 +6,120 @@
 
 .projects-title {
     font-size: 46px;
-    color: white;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.projects-col {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+  
+.projects-row {
+  margin: 0 -5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  
+.projects-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+.projects-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 950px) {
+  .projects-col {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+  
+.project-title {
+  margin: auto;
+}
+
+.grid-item {
+  background-color: #112340;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+          
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+          
+.card-img {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+          
+.card-content {
+  padding: 1.5rem;
+}
+          
+.card-header {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+          
+.card-text {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.3;
+  color: var(--tercery);
+  margin-bottom: 1.5rem;
+}
+          
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 20px;
+  text-align: center;
+  color: var(--bg-color);
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+          
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+          
+.card-btn:hover,
+.card-btn:active {
+  background-color: var(--primary);
+}
+          
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+          
+@media only screen and (max-width: 60em) {
+  body {
+    padding: 3rem;
+  }
 }

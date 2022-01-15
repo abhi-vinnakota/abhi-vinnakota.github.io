@@ -12,11 +12,7 @@ class Experience extends React.Component {
                 </div>
 
                 <div className='experiences-subtitle'>
-                    I'm currently a Freshman at UIUC and I hope to gain more experience throughout college. I love building things and being exposed to new technologies. 
-                </div>
-
-                <div className = 'experiences-subtitle'>
-                Here are my former + current positions:
+                    My favorite languages are Javascript, C++, and Python. At my internships, I've focused mainly on web development, but I'm also interested in exploring other areas as well. I definitely would love to dive into APIs and app development, among other things.  
                 </div>
 
                 <div className='experience-list'>
@@ -24,7 +20,7 @@ class Experience extends React.Component {
                 </div>
 
                 <div className ='experiences-subtitle'>
-                    Checkout my resume for detailed summaries of my work.
+                    Check out my resume for detailed summaries of my work.
                 </div>
             </div>
         );

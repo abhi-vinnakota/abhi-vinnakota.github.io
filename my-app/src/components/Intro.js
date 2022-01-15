@@ -22,10 +22,13 @@ class Intro extends React.Component {
                         </span>
                         
                     </Typist>
-                <FadeIn>
+                <FadeIn delay={1000}>
 
+                <span className="sub-title">
+                    Student and Software Developer
+                </span>
                     <div className = "bio">
-                        Welcome to my website! I'm currently looking for Software Engineering internships for Summer 2022. Please refer to my resume for more information!
+                        Welcome to my website! I'm currently looking for Software Engineering internships for Summer 2022. Please refer to my resume for more information.
                     </div>
                 
                 
