@@ -9,4 +9,4 @@ Completely ReactJS and CSS. I was debating whether to use React styled-component
 ## Future Plans
 I will definitely keep updating my website with new experiences and projects. I'm also thinking about adding more animations, and making the Navbar look better. I will do those in the near future since there are other projects I want to focus on right now. 
 
-### Feel free to fork my repository if you would like to use it as a template for your own website! Just please credit me if you do :).
+### Feel free to fork my repository if you would like to use it as a template for your own website! Just please credit me if you do. :)
