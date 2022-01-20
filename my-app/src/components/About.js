@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/About.css';
 import FadeIn from "react-fade-in/lib/FadeIn";
-import pdf from "../assets/AbhiVinnakotaResume.pdf";
+import pdf from "../assets/abhivinnakotaresume.pdf";
 
 class About extends React.Component {
     render() {

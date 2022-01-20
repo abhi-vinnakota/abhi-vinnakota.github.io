@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Navbar.css";
-import pdf from "../assets/AbhiVinnakotaResume.pdf";
+import pdf from "../assets/abhivinnakotaresume.pdf";
 
 
 var prevScrollpos = window.pageYOffset;

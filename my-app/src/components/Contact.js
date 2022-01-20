@@ -5,6 +5,7 @@ import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import pdf from '../assets/abhivinnakotaresume.pdf';
 
 class Contact extends React.Component {
     render() {
@@ -31,7 +32,7 @@ class Contact extends React.Component {
                         <TwitterIcon style = {{fontSize: 50}}></TwitterIcon>
                     </a>
 
-                    <a href = "AbhiVinnakotaResume.pdf">
+                    <a href = {pdf}>
                         <ArticleIcon style = {{fontSize: 50}}></ArticleIcon>
                     </a>
 

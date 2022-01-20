@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FadeIn from 'react-fade-in';
-import pdf from '../assets/AbhiVinnakotaResume.pdf';
+import pdf from '../assets/abhivinnakotaresume.pdf';
 
 class Intro extends React.Component {
     render() {
